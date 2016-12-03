@@ -1,0 +1,17 @@
+For sorting with several compares in comparator implementation:
+1) suit compare
+2) value compare
+
+Shell sort (h % 3):
+DEBUG: SortStatistic [compares=297, exchanges=265]
+
+Customized deck sort:
+1) Shell sort (h % 3)
+2) Insertion sort through the four cards of one value
+DEBUG: SortStatistic [compares=196, exchanges=105]
+
+Insertion sort:
+DEBUG: SortStatistic [compares=330, exchanges=296]
+
+Selection sort:
+DEBUG: SortStatistic [compares=630, exchanges=35]

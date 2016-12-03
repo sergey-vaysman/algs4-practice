@@ -1,0 +1,44 @@
+DEBUG: array size: 100
+DEBUG: array size: 1000
+DEBUG: array size: 10000
+DEBUG: array size: 100000
+DEBUG: array size: 1000000
+DEBUG: array size: 10000000
+7174453 , 0.282555
+2391484 , 1.121044
+797161 , 1.897309
+265720 , 2.502221
+88573 , 3.117557
+29524 , 3.941435
+9841 , 5.111187
+3280 , 6.933216
+1093 , 9.756913
+364 , 13.869364
+121 , 17.055052
+40 , 20.702013
+13 , 12.616996
+4 , 4.667095
+1 , 2.756335
+DEBUG: array size: 100000000
+64570081 , 0.354299
+21523360 , 1.194766
+7174453 , 1.941799
+2391484 , 2.579140
+797161 , 3.191878
+265720 , 4.019813
+88573 , 5.266327
+29524 , 7.117245
+9841 , 9.960027
+3280 , 14.064889
+1093 , 19.713438
+364 , 26.679535
+121 , 29.668339
+40 , 32.526886
+13 , 11.956400
+4 , 4.630132
+1 , 2.755701
+DEBUG: array size: 1000000000
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at common.RandomDoubleArrayCreator.createPrimitive(RandomDoubleArrayCreator.java:25)
+		at e12.ShellSortHOutputDoublePrimitiveTest.main(ShellSortHOutputDoublePrimitiveTest.java:15)
+		
