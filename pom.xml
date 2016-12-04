@@ -8,7 +8,6 @@
 	<name>algs4-practice</name>
 	
 	<properties>
-		<algs4.path>/home/vaysman/Documents/algorithms/practice/algs4-practice/lib/algs4.jar</algs4.path>
 		<junit.version>4.12</junit.version>
 	</properties>
 	
@@ -22,8 +21,6 @@
 			<groupId>algs4</groupId>
 			<artifactId>algs4</artifactId>
 			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${algs4.path}</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
